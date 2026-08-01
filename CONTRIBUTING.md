@@ -19,15 +19,15 @@ Ensure you have the following installed locally:
 
 ### 2. Fork and Clone
 
-1. Fork the [OneLink repository](https://github.com/your-username/onelink).
+1. Fork the [OneLink repository](https://github.com/sandeep-shome/oneLink.git).
 2. Clone your forked repository locally:
    ```bash
-   git clone https://github.com/your-username/onelink.git
+   git clone https://github.com/sandeep-shome/oneLink.git.git
    cd onelink
    ```
 3. Set up the upstream remote:
    ```bash
-   git remote add upstream https://github.com/original-owner/onelink.git
+   git remote add upstream https://github.com/sandeep-shome/oneLink.git
    ```
 
 ---
@@ -69,10 +69,6 @@ To maintain code stability, **direct commits or pushes to the `main` or `master`
 2. Provide a clear, detailed title and description explaining **what** was changed and **why**.
 3. Link relevant issues in the PR description (e.g., `Closes #42`).
 4. Ensure all automated tests, linters, and type checks pass locally before opening the PR:
-   ```bash
-   npm run lint
-   npm test
-   ```
 5. Request a review from the repository maintainers. Be responsive to review comments and feedback.
 
 ---
